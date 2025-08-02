@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException
 from bson import ObjectId
 
 from db.db import collection
-from modals.modal import Item, UpdateItem
+from modals.itemModal import Item, UpdateItem
 
 router = APIRouter()
 
